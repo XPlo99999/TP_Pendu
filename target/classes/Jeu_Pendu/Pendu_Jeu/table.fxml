@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="584.0" prefWidth="603.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Jeu_Pendu.Pendu_Jeu.TableController">
+   <children>
+      <Label text="Scores totaux" />
+      <TextArea prefHeight="59.0" prefWidth="417.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pseudo des joueurs" />
+      <TextArea prefHeight="53.0" prefWidth="374.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nb coups" />
+      <TextArea prefHeight="35.0" prefWidth="403.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nb erreurs" />
+      <TextArea prefHeight="12.0" prefWidth="438.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Durée de la partie" />
+      <TextArea prefHeight="26.0" prefWidth="510.0" />
+      <Button fx:id="tableButton" onAction="#switchToPrimary" text="Switch to Primary View" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
